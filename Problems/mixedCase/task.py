@@ -1,4 +1,2 @@
-camel = input()
-came = camel.title().split()
-cam = ''.join(came)
-print(cam.replace(cam[0], cam[0].lower()))
+words = input().title().split()
+print(''.join([words[0].lower()] + words[1:]))
